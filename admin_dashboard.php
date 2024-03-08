@@ -162,10 +162,10 @@ if (!isset($_SESSION['admin_id'])) {
             <div class="col-md-6">
                 <h2>Dodaj agenta</h2>
                 <form action="register_agent.php" method="POST">
-                    First Name: <input class="form-control" type="text" name="first_name"><br>
-                    Last Name: <input class="form-control" type="text" name="last_name"><br>
+                    Ime: <input class="form-control" type="text" name="first_name"><br>
+                    Prezime: <input class="form-control" type="text" name="last_name"><br>
                     Email: <input class="form-control" type="email" name="email"><br>
-                    Phone Number: <input class="form-control" type="text" name="phone_number"><br>
+                    Kontakt telefon: <input class="form-control" type="text" name="phone_number"><br>
                     <input class="btn btn-primary" type="submit" value="Dodaj agenta">
                 </form>
             </div>
